@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { AboutComponent } from './about/about.component';
     NgbModule, 
     NavbarComponent, 
     HomeComponent,
-    AboutComponent],
+    AboutComponent,
+    ServicesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
