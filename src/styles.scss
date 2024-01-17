@@ -10838,6 +10838,12 @@
   .page-section {
     padding: 4rem 0;
   }
+
+  .page-section-dark {
+    padding: 4rem 0;
+    background-color: #151515;
+    color: whitesmoke;
+  }
   
   .text-white-75 {
     color: rgba(255, 255, 255, 0.75) !important;
@@ -10993,3 +10999,39 @@
   #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
   }
+
+  .badge-subhead {
+    border-radius: 18px;
+    background-color: #f4623a;
+    font-size: small;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.badge-frmt {
+    padding-bottom: 20px;
+}
+
+.btn-theme-outline {
+  padding: 10px 30px;
+  margin: 5px;
+  height: unset;
+  background-color: transparent;
+  color: black;
+  border: 0;
+  font-weight: 500;
+  box-shadow: 0 0 0 2px #f4623a;
+  border-radius: 20px;
+}
+
+.btn-theme-outline:hover {
+  background-color: #f4623a;
+  color: #fff;
+}
+
+.btn-theme-outline:focus {
+  background-color: #f4623a;
+  color: #fff;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 5px #f4623a;
+}
