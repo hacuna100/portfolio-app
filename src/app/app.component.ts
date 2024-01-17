@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     ServicesComponent,
     PortfolioComponent,
-    ContactComponent],
+    ContactComponent,
+    FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
