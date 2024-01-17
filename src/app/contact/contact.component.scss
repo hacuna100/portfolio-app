@@ -1,0 +1,15 @@
+.contact-section {
+    width: 600px;
+}
+
+@media screen and (max-width: 575px) {
+    .contact-section {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-section {
+        width: 300px;
+    }
+}
